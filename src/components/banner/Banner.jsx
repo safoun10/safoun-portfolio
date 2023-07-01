@@ -3,6 +3,7 @@ import "./Banner.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { TypeAnimation } from "react-type-animation";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
 	useEffect(() => {
@@ -16,6 +17,28 @@ const Banner = () => {
 
 	return (
 		<div className="mx-auto" style={{ maxWidth: "1200px" }}>
+			<div>
+				<div className="d-flex gap-4 justify-content-end pt-4 navbar align-items-center">
+					<Link className="text-decoration-none text-dark text-two fs-5">
+						<div>Home</div>
+					</Link>
+					<Link className="text-decoration-none text-dark text-two fs-5">
+						<div>Projects</div>
+					</Link>
+					<Link className="text-decoration-none text-dark text-two fs-5">
+						<div>Contact</div>
+					</Link>
+					<div>
+						<div className="btn pe-4 ms-5 text-two text-center resume">
+							<img
+								src="https://i.postimg.cc/FFBz5FV5/output-onlinegiftools.gif"
+								className="img-fluid w-25"
+							/>
+							Resume
+						</div>
+					</div>
+				</div>
+			</div>
 			<div className="banner d-flex flex-column justify-content-center text-two">
 				<div data-aos="fade-up">
 					<div className="display-4">Hello there , I'm</div>
