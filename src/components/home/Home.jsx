@@ -4,16 +4,18 @@ const Home = () => {
 	return (
 		<div className="body">
 			<div className="block-1"></div>
+			<div className="block-2"></div>
+			<div className="block-3"></div>
 			<div>
 				<div
 					className="row mx-auto align-items-center py-3"
 					style={{ maxWidth: "1200px" }}
 				>
-					<div className="col-7">
-						<div className="display-2 text-one">
+					<div className="col-7 text-one">
+						<div className="display-2 ">
 							MD Sultan Mahmud Safoun
 						</div>
-						<div className="fs-4">Frontend Developer</div>
+						<div className="fs-4 ">Frontend Developer</div>
 					</div>
 					<div className="col-5">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit.
