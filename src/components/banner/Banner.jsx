@@ -17,7 +17,7 @@ const Banner = () => {
 	}, []);
 
 	const handleDownload = () => {
-		const serverURL = "http://localhost:5000/download";
+		const serverURL = "https://safoun-portfolio-server.vercel.app/download";
 		window.open(serverURL);
 	};
 
