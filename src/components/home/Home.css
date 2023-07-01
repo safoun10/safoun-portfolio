@@ -37,3 +37,7 @@
     border-radius: 10px;
     rotate: 1deg;
 }
+
+.name-box{
+    padding: 150px 0 !important;
+}
