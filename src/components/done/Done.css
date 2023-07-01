@@ -1,9 +1,0 @@
-.done-box {
-    background-color: #11074865;
-    transition: .5s ease-in-out;
-}
-
-.done-box:hover {
-    background-color: #7969c835;
-    box-shadow: 3px 3px 6px #241d535d, -3px -3px 6px #110748bf;
-}
