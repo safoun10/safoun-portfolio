@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -10,4 +13,9 @@ body {
   margin: 0 auto;
   min-width: 320px;
   min-height: 100vh;
+  color: white !important;
+}
+
+.text-one {
+  font-family: 'Poiret One', cursive !important;
 }
