@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-router-dom";
+import { saveAs } from "file-saver";
 
 const Banner = () => {
 	useEffect(() => {
@@ -15,21 +16,29 @@ const Banner = () => {
 		});
 	}, []);
 
+	const handleDownload = () => {
+		const serverURL = "http://localhost:5000/download";
+		window.open(serverURL);
+	};
+
 	return (
 		<div className="mx-auto" style={{ maxWidth: "1200px" }}>
 			<div>
 				<div className="d-flex gap-4 justify-content-end pt-4 navbar align-items-center">
-					<Link className="text-decoration-none text-dark text-two fs-5">
+					<Link className="text-decoration-none text-dark text-two fs-5 links">
 						<div>Home</div>
 					</Link>
-					<Link className="text-decoration-none text-dark text-two fs-5">
+					<Link className="text-decoration-none text-dark text-two fs-5 links">
 						<div>Projects</div>
 					</Link>
-					<Link className="text-decoration-none text-dark text-two fs-5">
+					<Link className="text-decoration-none text-dark text-two fs-5 links">
 						<div>Contact</div>
 					</Link>
 					<div>
-						<div className="btn pe-4 ms-5 text-two text-center resume">
+						<div
+							onClick={handleDownload}
+							className="btn pe-4 ms-5 text-two text-center resume"
+						>
 							<img
 								src="https://i.postimg.cc/FFBz5FV5/output-onlinegiftools.gif"
 								className="img-fluid w-25"
