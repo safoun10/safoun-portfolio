@@ -36,10 +36,15 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #000000;
+  background: #00051f;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #656565;
+}
+
+::selection {
+  color: #ffffff;
+  background: #00051f;
 }
