@@ -32,11 +32,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #ffffff;
+  background: #212529;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00051f;
+  background: #ffffff;
   border-radius: 10px;
 }
 

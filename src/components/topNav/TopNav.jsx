@@ -13,6 +13,47 @@ const TopNav = () => {
 	};
 	return (
 		<div>
+			<div className="social">
+				<Link
+					className="text-decoration-none"
+					to={"https://github.com/safoun10"}
+					target="_blank"
+				>
+					<div>
+						<img
+							src="https://i.postimg.cc/pLdFJ3pr/animation-640-ljl0cqgt.gif"
+							alt="github"
+							className="img-fluid img-social"
+						/>
+					</div>
+				</Link>
+				<Link
+					className="text-decoration-none"
+					to={"https://www.linkedin.com/in/safoun10/"}
+					target="_blank"
+				>
+					<div>
+						<img
+							src="https://i.postimg.cc/5Ngzvf9D/animation-640-ljl0crtq.gif"
+							alt="github"
+							className="img-fluid img-social"
+						/>
+					</div>
+				</Link>
+				<Link
+					className="text-decoration-none"
+					to={"https://web.facebook.com/safoun.10"}
+					target="_blank"
+				>
+					<div>
+						<img
+							src="https://i.postimg.cc/85vWrWsb/animation-640-ljl0a7qz.gif"
+							alt="github"
+							className="img-fluid img-social"
+						/>
+					</div>
+				</Link>
+			</div>
 			<div className="mx-auto" style={{ maxWidth: "1200px" }}>
 				<div className="d-flex gap-4 justify-content-end pt-4 navbar align-items-center">
 					<Link
