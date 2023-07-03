@@ -4,7 +4,6 @@ import "./TopNav.css";
 const TopNav = () => {
 	const location = useLocation();
 	const pathName = location.pathname;
-	console.log(pathName);
 
 	const handleDownload = () => {
 		const serverURL = "https://safoun-portfolio-server.vercel.app/download";
@@ -12,7 +11,7 @@ const TopNav = () => {
 	};
 	return (
 		<div>
-			<div className="social d-lg-flex flex-column d-none">
+			<div className="social d-flex flex-column">
 				<Link
 					className="text-decoration-none"
 					to={"https://github.com/safoun10"}

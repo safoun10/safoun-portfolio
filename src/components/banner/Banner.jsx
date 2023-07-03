@@ -20,15 +20,15 @@ const Banner = () => {
 			<div>
 				<TopNav></TopNav>
 			</div>
-			<div className="banner d-flex flex-column justify-content-center text-two">
+			<div className="banner d-flex flex-column justify-content-center text-two top-text">
 				<div data-aos="fade-up">
-					<div className="display-4">Hello there , I{"'m"}</div>
+					<div className="display-4 hello">Hello there , I{"'m"}</div>
 
-					<div className="display-1 pt-5">
+					<div className="display-1 pt-5 name-text">
 						MD Sultan Mahmud Safoun
 					</div>
 
-					<div className="display-4">
+					<div className="display-4 dev">
 						{"I'm"} a{" "}
 						<TypeAnimation
 							sequence={[
