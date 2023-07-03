@@ -1,11 +1,19 @@
-.me-top{
+.me-top {
     padding-top: 100px !important;
 }
 
-.quote{
-    padding: 50px;
+.quote {
+    padding: 100px 50px;
 }
 
-.right{
+.right {
     text-align: right !important;
+}
+
+.border-time {
+    border: 2px solid white;
+    border-radius: 16px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
 }
