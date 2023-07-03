@@ -49,8 +49,8 @@ const Contact = () => {
 				className="mx-auto my-5 py-3 text-two"
 				style={{ maxWidth: "1200px" }}
 			>
-				<div className="row mt-2 mb-4">
-					<div className="col-6 bg-dark p-5 rounded-5 d-flex flex-column gap-3 justify-content-center align-items-center">
+				<div className="row mt-2 mb-4 w-100 mx-auto">
+					<div className="col-11 mx-auto col-lg-6 mt-lg-2 mt-5 bg-dark p-4 p-sm-5 rounded-5 d-flex flex-column gap-3 justify-content-center align-items-center">
 						<div className="text-white text-center display-6 pb-4">
 							Contact me via
 						</div>
@@ -99,7 +99,7 @@ const Contact = () => {
 							</div>
 						</Link>
 					</div>
-					<div className="col-6 ps-4">
+					<div className="col-11 mx-auto col-lg-6 mt-lg-2 mt-5 ps-4">
 						<div className="pb-4 display-6">
 							You Can Send Me an Email !!
 						</div>

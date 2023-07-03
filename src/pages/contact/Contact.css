@@ -31,9 +31,15 @@
     background-color: white !important;
 }
 
-.social-card{
+.social-card {
     width: 100% !important;
     background-color: white;
     border-radius: 20px;
     padding: 16px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .send-btn {
+        padding: 18px 10px !important;
+    }
 }
