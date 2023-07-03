@@ -46,7 +46,7 @@ const Banner = () => {
 					</div>
 				</div>
 			</div>
-			<div className="d-flex flex-column align-items-end text-center">
+			<div className="d-flex flex-column align-items-end text-center mouse-scroll">
 				<img
 					src="https://i.postimg.cc/nh2VcHf1/126398-mouse-scroll.gif"
 					className="img-fluid img-mouse"

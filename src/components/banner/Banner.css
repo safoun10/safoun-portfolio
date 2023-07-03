@@ -47,6 +47,14 @@
     .top-text {
         margin-left: 20px !important;
     }
+
+    .mouse-scroll {
+        margin-right: 20px !important;
+    }
+
+    .banner {
+        height: 80vh;
+    }
 }
 
 @media only screen and (max-width: 600px) {
