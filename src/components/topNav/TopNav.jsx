@@ -12,7 +12,7 @@ const TopNav = () => {
 	};
 	return (
 		<div>
-			<div className="social">
+			<div className="social d-lg-flex flex-column d-none">
 				<Link
 					className="text-decoration-none"
 					to={"https://github.com/safoun10"}
