@@ -16,10 +16,10 @@ const Me = () => {
 	// };
 
 	return (
-		<div className="me-top mx-auto text-two mt-3" style={{ maxWidth: "1200px" }}>
-			<div className="display-1">Why Me?</div>
-			<div className="row py-5">
-				<div className="col-6 display-6 p-2 d-flex flex-column align-items-center">
+		<div className="me-top px-1 mx-auto text-two mt-3" style={{ maxWidth: "1200px" }}>
+			<div className="display-1 ps-md-2 ps-5">Why Me?</div>
+			<div className="row py-5 w-100 mx-auto">
+				<div className="col-11 mx-auto col-md-6 display-6 p-2 d-flex flex-column align-items-center">
 					<div className="border-time">
 						<div>
 							<CountUp
@@ -33,8 +33,7 @@ const Me = () => {
 						<div>Projects</div>
 					</div>
 				</div>
-
-				<div className="col-6 display-6 p-2 d-flex flex-column align-items-center">
+				<div className="col-11 mx-auto col-md-6 display-6 p-2 d-flex flex-column align-items-center">
 					<div className="border-time">
 						<div>
 							<CountUp
@@ -48,7 +47,7 @@ const Me = () => {
 						<div>Assignments</div>
 					</div>
 				</div>
-				<div className="col-6 display-6 p-2 d-flex flex-column align-items-center">
+				<div className="col-11 mx-auto col-md-6 display-6 p-2 d-flex flex-column align-items-center">
 					<div className="border-time">
 						<div>
 							<CountUp
@@ -62,7 +61,7 @@ const Me = () => {
 						<div>Github Commits</div>
 					</div>
 				</div>
-				<div className="col-6 display-6 p-2 d-flex flex-column align-items-center">
+				<div className="col-11 mx-auto col-md-6 display-6 p-2 d-flex flex-column align-items-center">
 					<div className="border-time">
 						<div>
 							<CountUp
@@ -76,8 +75,8 @@ const Me = () => {
 						<div>Repositories</div>
 					</div>
 				</div>
-				<div className="col-12 display-6 p-2 d-flex flex-column align-items-center">
-					<div className="border-time">
+				<div className="col-11 mx-auto col-md-12 display-6 py-2 d-flex flex-column align-items-center">
+					<div className="border-time py-md-4 py-4 px-3">
 						<div>
 							All within{" "}
 							<CountUp
