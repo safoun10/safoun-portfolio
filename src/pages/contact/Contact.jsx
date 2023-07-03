@@ -2,6 +2,9 @@ import { useRef } from "react";
 import emailjs from "emailjs-com";
 import TopNav from "../../components/topNav/TopNav";
 import "./Contact.css";
+import { Link } from "react-router-dom";
+import { BsFacebook, BsLinkedin, BsPhone } from "react-icons/bs";
+import { BiLogoGmail } from "react-icons/bi";
 
 const Contact = () => {
 	const form = useRef();
@@ -43,30 +46,62 @@ const Contact = () => {
 		<div>
 			<TopNav></TopNav>
 			<div
-				className="mx-auto mt-5 pt-3 text-two"
+				className="mx-auto my-5 py-3 text-two"
 				style={{ maxWidth: "1200px" }}
 			>
-				<div className="row mt-2">
-					<div className="col-6 bg-dark p-5 rounded-5 d-flex flex-column gap">
-						<div className="social-card">
-							linkedIn
+				<div className="row mt-2 mb-4">
+					<div className="col-6 bg-dark p-5 rounded-5 d-flex flex-column gap-3 justify-content-center align-items-center">
+						<div className="text-white text-center display-6 pb-4">
+							Contact me via
 						</div>
-						<div className="social-card">
-							linkedIn
-						</div>
-						<div className="social-card">
-							linkedIn
-						</div>
-						<div className="social-card">
-							linkedIn
-						</div>
-						<div className="social-card">
-							linkedIn
-						</div>
+
+						<Link
+							to={"https://www.linkedin.com/in/safoun10/"}
+							target="_blank"
+							className="text-decoration-none text-dark w-100"
+						>
+							<div className="social-card d-flex align-items-center justify-content-center">
+								<BsLinkedin className="fs-2 mx-3 "></BsLinkedin>{" "}
+								<span className="fs-4">LinkedIn</span>
+							</div>
+						</Link>
+
+						<Link
+							to={"tel: 01320717733"}
+							target="_blank"
+							className="text-decoration-none text-dark w-100"
+						>
+							<div className="social-card d-flex align-items-center justify-content-center">
+								<BsPhone className="fs-2 mx-2 "></BsPhone>{" "}
+								<span className="fs-4">Phone Number</span>
+							</div>
+						</Link>
+
+						<Link
+							to={"mailto: safoun.official@gmail.com"}
+							target="_blank"
+							className="text-decoration-none text-dark w-100"
+						>
+							<div className="social-card d-flex align-items-center justify-content-center">
+								<BiLogoGmail className="fs-3 mx-2 "></BiLogoGmail>{" "}
+								<span className="fs-4">Email</span>
+							</div>
+						</Link>
+
+						<Link
+							to={"https://www.facebook.com/safoun.10"}
+							target="_blank"
+							className="text-decoration-none text-dark w-100"
+						>
+							<div className="social-card d-flex align-items-center justify-content-center">
+								<BsFacebook className="fs-3 mx-2 "></BsFacebook>{" "}
+								<span className="fs-4">Facebook</span>
+							</div>
+						</Link>
 					</div>
-					<div className="col-6">
+					<div className="col-6 ps-4">
 						<div className="pb-4 display-6">
-							You Can Send Me an Email
+							You Can Send Me an Email !!
 						</div>
 						<form ref={form} onSubmit={sendEmail}>
 							<div>
