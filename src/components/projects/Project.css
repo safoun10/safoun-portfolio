@@ -7,7 +7,6 @@
     background-size: cover;
     transition: ease-in-out 8s;
     border: 3px solid #00000071;
-    border-radius: 16px !important;
 }
 
 .project-img:hover {
@@ -23,7 +22,7 @@
     background-size: cover;
     transition: ease-in-out 8s;
     border: 3px solid #00000071;
-    border-radius: 16px !important;
+    border-radius: 0px !important;
 }
 
 .project-img-2:hover {
