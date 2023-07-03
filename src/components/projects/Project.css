@@ -1,0 +1,31 @@
+.project-img {
+    width: 35vw;
+    height: 35vh;
+    background-image: url("https://i.ibb.co/02sPSKs/foodie-fiesta-449d3-web-app-home.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out 8s;
+    border: 3px solid #00000071;
+    border-radius: 16px !important;
+}
+
+.project-img:hover {
+    background-position: bottom;
+}
+
+.project-img-2 {
+    width: 35vw;
+    height: 35vh;
+    background-image: url("https://i.ibb.co/Xz7T6yd/euphoria-safoun-web-app-home.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out 8s;
+    border: 3px solid #00000071;
+    border-radius: 16px !important;
+}
+
+.project-img-2:hover {
+    background-position: bottom;
+}
