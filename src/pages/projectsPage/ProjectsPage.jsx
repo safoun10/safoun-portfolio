@@ -10,60 +10,113 @@ const ProjectsPage = () => {
 				className="text-two mx-auto mt-5 py-5"
 				style={{ maxWidth: "1200px" }}
 			>
-				<div className="display-1 ps-4">My Projects</div>
-				<div className="row">
-					<div className="pt-5 col-11 mx-auto">
-						<div className="project-img"></div>
-						<div className="d-flex justify-content-between">
+				<div className="display-1 ps-4 pb-5">My Projects</div>
+
+				<div className="row border-project align-items-center mx-auto mb-5">
+					<div className="col-xl-9 col-11 mx-auto project-img"></div>
+					<div className="col-xl-3 col-11 mx-auto row justify-content-around d-xl-block pt-4 px-2">
+						<div>
 							<Link
 								to={"https://foodie-fiesta-449d3.web.app/home"}
 								className="text-decoration-none text-dark"
 							>
-								<div className="text-three display-6 ps-3 pt-3">
+								<div className="fs-2 pb-4 project-name">
 									Foodie Fiesta
 								</div>
 							</Link>
+						</div>
+						<div className="d-flex flex-column gap-md-4 gap-2">
 							<Link
 								to={"https://foodie-fiesta-449d3.web.app/home"}
-								className="text-decoration-none text-dark"
+								className="text-decoration-none text-dark btn border"
 							>
-								<div className="fs-2 ps-3 pt-3">Live Site</div>
+								<div className="fs-2 links">Live</div>
 							</Link>
 							<Link
 								to={"https://foodie-fiesta-449d3.web.app/home"}
-								className="text-decoration-none text-dark"
+								className="text-decoration-none text-dark btn border"
 							>
-								<div className="fs-2 ps-3 pt-3">
-									Client
-								</div>
+								<div className="fs-2 links">Client</div>
 							</Link>
 							<Link
 								to={"https://foodie-fiesta-449d3.web.app/home"}
-								className="text-decoration-none text-dark"
+								className="text-decoration-none text-dark btn border"
 							>
-								<div className="display-6 ps-3 pt-3">
-									Server
-								</div>
+								<div className="fs-2 links">Server</div>
 							</Link>
 						</div>
 					</div>
-					<div className="pt-5 col-11 mx-auto">
-						<div className="project-img-2"></div>
-						<Link
-							to={"https://euphoria-safoun.web.app/"}
-							className="text-decoration-none text-dark"
-						>
-							<div className="display-6 ps-3 pt-3">Euphoria</div>
-						</Link>
+				</div>
+
+				<div className="row border-project align-items-center mx-auto mb-5">
+					<div className="col-xl-9 col-11 mx-auto project-img"></div>
+					<div className="col-xl-3 col-11 mx-auto row justify-content-around d-xl-block pt-4 px-2">
+						<div>
+							<Link
+								to={"https://foodie-fiesta-449d3.web.app/home"}
+								className="text-decoration-none text-dark"
+							>
+								<div className="fs-2 pb-4 project-name">
+									Foodie Fiesta
+								</div>
+							</Link>
+						</div>
+						<div className="d-flex flex-column gap-md-4 gap-2">
+							<Link
+								to={"https://foodie-fiesta-449d3.web.app/home"}
+								className="text-decoration-none text-dark btn border"
+							>
+								<div className="fs-2 links">Live</div>
+							</Link>
+							<Link
+								to={"https://foodie-fiesta-449d3.web.app/home"}
+								className="text-decoration-none text-dark btn border"
+							>
+								<div className="fs-2 links">Client</div>
+							</Link>
+							<Link
+								to={"https://foodie-fiesta-449d3.web.app/home"}
+								className="text-decoration-none text-dark btn border"
+							>
+								<div className="fs-2 links">Server</div>
+							</Link>
+						</div>
 					</div>
-					<div className="pt-5 col-11 mx-auto">
-						<div className="project-img-3"></div>
-						<Link
-							to={"https://euphoria-safoun.web.app/"}
-							className="text-decoration-none text-dark"
-						>
-							<div className="display-6 ps-3 pt-3">Euphoria</div>
-						</Link>
+				</div>
+
+				<div className="row border-project align-items-center mx-auto mb-5">
+					<div className="col-xl-9 col-11 mx-auto project-img"></div>
+					<div className="col-xl-3 col-11 mx-auto row justify-content-around d-xl-block pt-4 px-2">
+						<div>
+							<Link
+								to={"https://foodie-fiesta-449d3.web.app/home"}
+								className="text-decoration-none text-dark"
+							>
+								<div className="fs-2 pb-4 project-name">
+									Foodie Fiesta
+								</div>
+							</Link>
+						</div>
+						<div className="d-flex flex-column gap-md-4 gap-2">
+							<Link
+								to={"https://foodie-fiesta-449d3.web.app/home"}
+								className="text-decoration-none text-dark btn border"
+							>
+								<div className="fs-2 links">Live</div>
+							</Link>
+							<Link
+								to={"https://foodie-fiesta-449d3.web.app/home"}
+								className="text-decoration-none text-dark btn border"
+							>
+								<div className="fs-2 links">Client</div>
+							</Link>
+							<Link
+								to={"https://foodie-fiesta-449d3.web.app/home"}
+								className="text-decoration-none text-dark btn border"
+							>
+								<div className="fs-2 links">Server</div>
+							</Link>
+						</div>
 					</div>
 				</div>
 			</div>
