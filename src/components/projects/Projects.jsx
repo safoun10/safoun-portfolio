@@ -8,9 +8,9 @@ const Projects = () => {
 			style={{ maxWidth: "1200px" }}
 		>
 			<div className="display-1 ps-4">My Projects</div>
-			<div className="row w-100 mx-auto">
+			<div className="row mx-auto w-100 mx-auto">
 				<div className="pt-5 col-lg-6 col-11 mx-auto">
-					<div className="project-img"></div>
+					<div className="project-image"></div>
 					<Link
 						to={"https://foodie-fiesta-449d3.web.app/home"}
 						className="text-decoration-none text-dark"
@@ -21,7 +21,7 @@ const Projects = () => {
 					</Link>
 				</div>
 				<div className="pt-5 col-lg-6 col-11 mx-auto">
-					<div className="project-img-2"></div>
+					<div className="project-image-2"></div>
 					<Link
 						to={"https://euphoria-safoun.web.app/"}
 						className="text-decoration-none text-dark"

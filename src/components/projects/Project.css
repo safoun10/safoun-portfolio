@@ -1,6 +1,6 @@
-.project-img {
-    width: 35vw;
-    height: 50vh !important;
+.project-image {
+    width: 100% !important;
+    height: 400px !important;
     background-image: url("https://i.ibb.co/02sPSKs/foodie-fiesta-449d3-web-app-home.png");
     background-position: top;
     background-repeat: no-repeat;
@@ -9,13 +9,13 @@
     border: 3px solid #00000071;
 }
 
-.project-img:hover {
+.project-image:hover {
     background-position: bottom;
 }
 
-.project-img-2 {
-    width: 35vw;
-    height: 50vh !important;
+.project-image-2 {
+    width: 100% !important;
+    height: 400px !important;
     background-image: url("https://i.ibb.co/Xz7T6yd/euphoria-safoun-web-app-home.png");
     background-position: top;
     background-repeat: no-repeat;
@@ -25,6 +25,19 @@
     border-radius: 0px !important;
 }
 
-.project-img-2:hover {
+.project-image-2:hover {
     background-position: bottom;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .project-image {
+        width: 100% !important;
+        height: 250px !important;
+    }
+
+    .project-image-2 {
+        width: 100% !important;
+        height: 250px !important;
+    }
 }
