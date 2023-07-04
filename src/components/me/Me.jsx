@@ -53,7 +53,7 @@ const Me = () => {
 							<CountUp
 								start={0}
 								duration={5}
-								end={770}
+								end={785}
 								delay={0}
 								enableScrollSpy="true"
 							/>+
