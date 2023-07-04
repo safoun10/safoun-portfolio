@@ -1,6 +1,6 @@
 .project-img {
     width: 35vw;
-    height: 35vh;
+    height: 50vh !important;
     background-image: url("https://i.ibb.co/02sPSKs/foodie-fiesta-449d3-web-app-home.png");
     background-position: top;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 
 .project-img-2 {
     width: 35vw;
-    height: 35vh;
+    height: 50vh !important;
     background-image: url("https://i.ibb.co/Xz7T6yd/euphoria-safoun-web-app-home.png");
     background-position: top;
     background-repeat: no-repeat;
