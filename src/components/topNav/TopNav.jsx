@@ -10,7 +10,7 @@ const TopNav = () => {
 		window.open(serverURL);
 	};
 	return (
-		<div>
+		<div className="d-none d-sm-block">
 			<div className="social d-flex flex-column">
 				<Link
 					className="text-decoration-none"
@@ -87,7 +87,7 @@ const TopNav = () => {
 					<div>
 						<div
 							onClick={handleDownload}
-							className="btn pe-4 ms-5 text-two text-center resume"
+							className="btn pe-4 ms-4 text-two text-center resume"
 						>
 							<img
 								src="https://i.postimg.cc/FFBz5FV5/output-onlinegiftools.gif"

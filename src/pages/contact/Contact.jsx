@@ -5,6 +5,7 @@ import "./Contact.css";
 import { Link } from "react-router-dom";
 import { BsFacebook, BsLinkedin, BsPhone } from "react-icons/bs";
 import { BiLogoGmail } from "react-icons/bi";
+import BottomNav from "../../components/bottomNav/BottomNav";
 
 const Contact = () => {
 	const form = useRef();
@@ -45,16 +46,16 @@ const Contact = () => {
 	return (
 		<div>
 			<TopNav></TopNav>
+			<BottomNav></BottomNav>
 			<div
 				className="mx-auto my-5 py-3 text-two"
 				style={{ maxWidth: "1200px" }}
 			>
-				<div className="row mt-2 mb-4 w-100 mx-auto">
+				<div className="row mt-md-2 mt-0 mb-4 w-100 mx-auto">
 					<div className="col-11 mx-auto col-lg-6 mt-lg-2 mt-5 bg-dark p-4 p-sm-5 rounded-5 d-flex flex-column gap-3 justify-content-center align-items-center">
 						<div className="text-white text-center display-6 pb-4">
 							Contact me via
 						</div>
-
 						<Link
 							to={"https://www.linkedin.com/in/safoun10/"}
 							target="_blank"
@@ -65,7 +66,6 @@ const Contact = () => {
 								<span className="fs-4">LinkedIn</span>
 							</div>
 						</Link>
-
 						<Link
 							to={"tel: 01320717733"}
 							target="_blank"
@@ -76,7 +76,6 @@ const Contact = () => {
 								<span className="fs-4">Phone Number</span>
 							</div>
 						</Link>
-
 						<Link
 							to={"mailto: safoun.official@gmail.com"}
 							target="_blank"
@@ -87,7 +86,6 @@ const Contact = () => {
 								<span className="fs-4">Email</span>
 							</div>
 						</Link>
-
 						<Link
 							to={"https://www.facebook.com/safoun.10"}
 							target="_blank"

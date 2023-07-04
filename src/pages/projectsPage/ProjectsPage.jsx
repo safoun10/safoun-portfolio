@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
 import TopNav from "../../components/topNav/TopNav";
 import "./ProjectsPage.css";
+import BottomNav from "../../components/bottomNav/BottomNav";
 
 const ProjectsPage = () => {
 	return (
 		<div className="text-two">
 			<TopNav></TopNav>
+			<BottomNav></BottomNav>
 			<div
-				className="text-two mx-auto mt-5 py-5"
+				className="text-two mx-auto mt-mb-5 mt-0 py-5"
 				style={{ maxWidth: "1200px" }}
 			>
 				<div className="display-1 ps-4 pb-5">My Projects</div>
