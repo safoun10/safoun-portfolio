@@ -14,20 +14,11 @@ import {
 	SiExpress,
 	SiFirebase,
 	SiMongodb,
-	SiOpenai,
 	SiTailwindcss,
 	SiVercel,
 } from "react-icons/si";
-import {
-	BsBug,
-	BsGit,
-	BsGithub,
-	BsPhone,
-	BsShieldShaded,
-} from "react-icons/bs";
+import { BsBug, BsGit, BsGithub, BsPhone } from "react-icons/bs";
 import { BiLogoNetlify } from "react-icons/bi";
-import { RiBardFill } from "react-icons/ri";
-import { RxTimer } from "react-icons/rx";
 
 import { Tilt } from "react-tilt";
 
@@ -292,34 +283,6 @@ const Skills = () => {
 					>
 						<div className="skill">
 							<div>
-								<SiOpenai className="display-1"></SiOpenai>
-							</div>
-							<div className="text-three pt-2 fs-2">ChatGPT</div>
-						</div>
-					</Tilt>
-				</div>
-				<div className="col-lg-3 col-md-6 col-11 mx-auto skill-card">
-					<Tilt
-						options={defaultOptions}
-						className="w-100"
-						style={{ height: "auto", width: "auto" }}
-					>
-						<div className="skill">
-							<div>
-								<RiBardFill className="display-1"></RiBardFill>
-							</div>
-							<div className="text-three pt-2 fs-2">Bard AI</div>
-						</div>
-					</Tilt>
-				</div>
-				<div className="col-lg-3 col-md-6 col-11 mx-auto skill-card">
-					<Tilt
-						options={defaultOptions}
-						className="w-100"
-						style={{ height: "auto", width: "auto" }}
-					>
-						<div className="skill">
-							<div>
 								<FaChrome className="display-1"></FaChrome>
 							</div>
 							<div className="text-three pt-2 fs-2">Dev Tool</div>
@@ -366,36 +329,6 @@ const Skills = () => {
 							</div>
 							<div className="text-three pt-2 fs-2">
 								Express JS
-							</div>
-						</div>
-					</Tilt>
-				</div>
-				<div className="col-lg-3 col-md-6 col-11 mx-auto skill-card">
-					<Tilt
-						options={defaultOptions}
-						className="w-100"
-						style={{ height: "auto", width: "auto" }}
-					>
-						<div className="skill">
-							<div>
-								<RxTimer className="display-1"></RxTimer>
-							</div>
-							<div className="text-three pt-2 fs-2">Punctual</div>
-						</div>
-					</Tilt>
-				</div>
-				<div className="col-lg-3 col-md-6 col-11 mx-auto skill-card">
-					<Tilt
-						options={defaultOptions}
-						className="w-100"
-						style={{ height: "auto", width: "auto" }}
-					>
-						<div className="skill">
-							<div>
-								<BsShieldShaded className="display-1"></BsShieldShaded>
-							</div>
-							<div className="text-three pt-2 fs-2">
-								Disciplined
 							</div>
 						</div>
 					</Tilt>
