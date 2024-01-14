@@ -25,7 +25,7 @@ const Me = () => {
 							<CountUp
 								start={0}
 								duration={5}
-								end={30}
+								end={40}
 								enableScrollSpy="true"
 							/>
 							+
